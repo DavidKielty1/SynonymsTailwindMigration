@@ -1,0 +1,16 @@
+.synonyms {
+  padding-left: 0;
+  text-align: center;
+  width: 100%;
+  text-transform: capitalize;
+  border: 1px red solid;
+}
+
+.ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list {
+  margin-bottom: 1rem;
+}
