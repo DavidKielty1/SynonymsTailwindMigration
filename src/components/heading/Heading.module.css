@@ -1,9 +1,11 @@
 .container {
   display: flex;
-  height: 10vh;
   justify-content: center;
-  font-size: 1.5rem;
-  padding-bottom: 2rem;
-  width: 100%;
+  margin: 5px;
   border: 1px solid blue;
+  padding: 20px;
+}
+
+.h1 {
+  font-size: xx-large;
 }

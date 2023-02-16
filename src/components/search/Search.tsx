@@ -28,12 +28,16 @@ const Search: React.FC<searchedDataProp> = ({ word, updateWord }) => {
         Search word:{" "}
       </label>
       <input
+        className={styles.input}
         name="search"
         type="text-area"
         placeholder="word"
         onKeyUp={enterHandler}
       />
-      <button onClick={() => updateWord(searchedData)}></button>
+      <button
+        className={styles.button}
+        onClick={() => updateWord(searchedData)}
+      ></button>
     </form>
   );
 };

@@ -1,4 +1,4 @@
-import classes from "@/styles/Home.module.css";
+import styles from "@/styles/Home.module.css";
 import Heading from "@/components/heading/Heading";
 import Synonyms from "@/components/synonyms/Synonyms";
 import Search from "@/components/search/Search";
@@ -15,11 +15,15 @@ const Home: React.FC = () => {
 
   return (
     <>
-      <main className={classes.main}>
-        <Heading />
-        <Search word={searchedWord} updateWord={updateWord} />
-        <Synonyms word={searchedWord} />
-      </main>
+      <div className={styles.page}>
+        <div className={styles.layout}>
+          <main className={styles.main}>
+            <Heading />
+            <Search word={searchedWord} updateWord={updateWord} />
+          </main>
+          <Synonyms word={searchedWord} />
+        </div>
+      </div>
     </>
   );
 };

@@ -1,7 +1,6 @@
 .synonyms {
-  padding-left: 0;
+  margin: 5px;
   text-align: center;
-  width: 100%;
   text-transform: capitalize;
   border: 1px red solid;
 }
