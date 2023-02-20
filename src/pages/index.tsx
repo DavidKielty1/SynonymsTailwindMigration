@@ -14,17 +14,15 @@ const Home: React.FC = () => {
   console.log("Index.tsx " + searchedWord);
 
   return (
-    <>
-      <div className={styles.page}>
-        <div className={styles.layout}>
-          <main className={styles.main}>
-            <Heading />
-            <Search word={searchedWord} updateWord={updateWord} />
-          </main>
-          <Synonyms word={searchedWord} />
-        </div>
+    <div className={styles.page}>
+      <div className={styles.layout}>
+        <main className={styles.main}>
+          <Heading />
+          <Search word={searchedWord} updateWord={updateWord} />
+        </main>
+        <Synonyms word={searchedWord} />
       </div>
-    </>
+    </div>
   );
 };
 
