@@ -14,7 +14,7 @@ const Home: React.FC = () => {
   console.log("Index.tsx " + searchedWord);
 
   return (
-    <div className={styles.page}>
+    <div class="text-3xl">
       <div className={styles.layout}>
         <main className={styles.main}>
           <Heading />
